@@ -10,8 +10,9 @@ namespace Week1Console_correct
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Lab 1");
-            Console.ReadKey();
+            Console.WriteLine("Enter your name:");
+            string name = Console.ReadLine();
+            Console.WriteLine("Hello " + name);
 
         }
     }
